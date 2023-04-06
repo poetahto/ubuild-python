@@ -1,5 +1,6 @@
 # ubuild-python
 A python API for building Unity projects.
+When pointed at a Unity project on disk and given an Editor location, provides a simple interface to create builds of the game for different platforms.
 
 ## How to use
 - The file [ubuild.py](https://github.com/poetahto/ubuild-python/blob/main/ubuild.py) contains the main API for creating builds of Unity projects. Other python scripts should reference it and call into its helper functions. It also has no external dependencies, so you should be able to use it anywhere.
